@@ -59,9 +59,8 @@ public class MainActivity extends AppCompatActivity {
         String inchesText = inchesEditText.getText().toString();
 
         int inches = Integer.parseInt(inchesText);
-        String result = String.valueOf(inches / 39.37);
 
-        return result;
+        return String.valueOf(inches / 39.37);
 
     }
 
